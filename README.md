@@ -81,3 +81,8 @@ Other great tools that help with TDD
 7. [Travis CI](https://travis-ci.org/)
 
 
+Setting up RSpec for a simple Ruby project
+------------------------------------------
+1. `gem install rspec`
+2. `rspec --init` which generates a `.rspec` file and a `/spec` directory which include `spec_helper.rb`
+3. add `--format documentation` to the `.rspec` file to get better messages when running the test suite
