@@ -1,4 +1,7 @@
+Style/Documentation:
+  Enabled: false
 AllCops:
   Exclude:
     - 'Guardfile'
     - 'Gemfile'
+    - 'spec/spec_helper.rb'
