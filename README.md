@@ -61,7 +61,7 @@ Further reading on a controlled experiment that was conducted in the academic sp
 
 ####Points to keep in mind
 
-- It is code after all so the same principles still apply. In the case of Ruby, SOLID and the gang should not be ignored!
+- It is code after all so the same principles still apply. In the case of Ruby, SOLID and the gang should not be ignored! Watch this [talk](https://www.youtube.com/watch?v=FidRcixHQos)
 - KISS your tests
 - Should run efficiently and quickly
 - TDD is great with git!
