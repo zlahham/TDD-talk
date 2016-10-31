@@ -1,7 +1,5 @@
 ##TDD with Ruby/Rails
 
-Summary
-=======
 This is a summary of a talk I gave at [Boundless Drop](http://boundlessdrop.com) (where I work). I introduced TDD with Ruby and more importantly gave a run through of the tools/techniques that I commonly use to make my life easier and get the job done more efficiently
 
 A bit of historical Context
