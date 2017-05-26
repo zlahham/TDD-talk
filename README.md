@@ -1,4 +1,4 @@
-##TDD with Ruby/Rails
+## TDD with Ruby/Rails
 
 This is a summary of a talk I gave at [Boundless Drop](http://boundlessdrop.com) (where I work). I introduced TDD with Ruby and more importantly gave a run through of the tools/techniques that I commonly use to make my life easier and get the job done more efficiently
 
@@ -15,7 +15,7 @@ TDD in a nutshell
 -----------------
 Lets first address the following questions that usually come up when talking about TDD:
 
-####So how does this actually work?
+#### So how does this actually work?
 In three words: Red-Green-Refactor!
 
 We begin with a few user stories that have been agreed upon such as these:
@@ -34,14 +34,14 @@ We initially want to write a failing test (Red), which is then fixed by writing 
 
 ![tdd-cycle](http://i.imgur.com/dEpQrOv.png)
 
-####Why would we write a test before even writing a line of code?
+#### Why would we write a test before even writing a line of code?
 - I truly believe that doing this allows you as an engineer to further understand the project requirements
 - You keep questioning why and how this part of the product is working
 - Ensures that the code coverage is high from the beginning rather than worry about it later
 - Allows you to pick up on other faults/issues with the system before even reaching them
 - This allows others in the team to understand what you meant to do with a certain function/method/feature when the come across it.
 
-####Doesn't that make our sprint slower?
+#### Doesn't that make our sprint slower?
 Yes and no.
 
 - If everyone is TDDing, after a short time, the benefits will definetly out way the time spent testing first.
@@ -49,7 +49,7 @@ Yes and no.
 - Your code base is always "Cleaner" if you refactor properly
 - Like all worthwhile investments, of course it takes time!
 
-####Is it even beneficial to write tests at all?
+#### Is it even beneficial to write tests at all?
 
 For production grade applications this is a no brainer. When you are dealing with clients and getting things right the first time would mean that we can cut costs over the short and long run, then testing is an essential part of any project.
 
@@ -57,7 +57,7 @@ As we all know, merging branches can be a pain. If everything is tested in isola
 
 Further reading on a controlled experiment that was conducted in the academic sphere, take a look at this [paper](http://nparc.cisti-icist.nrc-cnrc.gc.ca/eng/view/accepted/?id=0420df64-f474-4072-8df6-c7b87c0de643)
 
-####Points to keep in mind
+#### Points to keep in mind
 
 - It is code after all so the same principles still apply. In the case of Ruby, SOLID and the gang should not be ignored! Watch this [talk](https://www.youtube.com/watch?v=FidRcixHQos)
 - KISS your tests
